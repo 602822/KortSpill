@@ -1,0 +1,36 @@
+﻿  Kortspill.cpp
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,17): error C2011: 'KortStokk': 'class' type redefinition
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(11,7): error C2027: use of undefined type 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(11,42): error C2027: use of undefined type 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(12,16): error C2146: syntax error: missing ';' before identifier 'rd'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(13,10): error C2146: syntax error: missing ';' before identifier 'rng'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(13,14): error C2065: 'rd': undeclared identifier
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(13,10): error C2065: 'rng': undeclared identifier
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(15,32): error C2146: syntax error: missing ';' before identifier 'dist'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(15,2): error C2275: 'std::uniform_int_distribution<int>': expected an expression instead of a type
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(15,32): error C2065: 'dist': undeclared identifier
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(17,25): error C2065: 'rng': undeclared identifier
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(17,20): error C3861: 'dist': identifier not found
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(19,33): error C2027: use of undefined type 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(26,6): error C2027: use of undefined type 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(26,64): error C2027: use of undefined type 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(28,32): error C2027: use of undefined type 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(29,25): error C2664: 'Kort *tilfeldigKort(KortStokk)': cannot convert argument 1 from 'KortStokk' to 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(29,39): message : use of undefined type 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(11,7): message : see declaration of 'tilfeldigKort'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(29,25): message : while trying to match the argument list '(KortStokk)'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\Kortspill.cpp(27,40): error C2027: use of undefined type 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\Kortspill.cpp(29,2): error C2664: 'void DelUtKort(std::vector<Spiller *,std::allocator<Spiller *>>,KortStokk)': cannot convert argument 2 from 'KortStokk' to 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\Kortspill.cpp(29,22): message : use of undefined type 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortStokk.h(5,7): message : see declaration of 'KortStokk'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\KortUtil.h(26,6): message : see declaration of 'DelUtKort'
+C:\Users\vefje\source\repos\Kortspill\Kortspill\Kortspill.cpp(29,2): message : while trying to match the argument list '(std::vector<Spiller *,std::allocator<Spiller *>>, KortStokk)'
